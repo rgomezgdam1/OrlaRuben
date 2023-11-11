@@ -23,9 +23,6 @@ namespace OrlaRuben
         public MainWindow()
         {
             InitializeComponent();
-            Grid grid = new Grid();
-
-            grid.Children.Add
         }
 
         private void MouseClick41(object sender, RoutedEventArgs e)
@@ -56,6 +53,12 @@ namespace OrlaRuben
         private void MouseLeave42(object sender, MouseEventArgs e)
         {
             Puesto42.Text = "";
+        }
+
+        private void Persona41_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            Profile win2 = new Profile("Nombre", "Apellidos", "email alumno@educacion.navarra.es", "Imagenes/AritzP.jpg");
+            win2.Show();
         }
     }
 }

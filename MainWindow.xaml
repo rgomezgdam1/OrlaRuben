@@ -38,7 +38,7 @@
                 <TextBlock Text="Aitor Cuadrado" FontStretch="Expanded" x:Name="Puesto41"
                            Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             </Viewbox>
-            <Button UseLayoutRounding="True" x:Name="Persona41" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40" Click="MouseClick41" MouseEnter="MouseEnter41" MouseLeave="MouseLeave41">
+            <Button UseLayoutRounding="True" x:Name="Persona41" Margin="15,15,15,0" BorderThickness="0" Height="40" Width="40" Click="MouseClick41" MouseEnter="MouseEnter41" MouseLeave="MouseLeave41" MouseDoubleClick="Persona41_MouseDoubleClick">
                 <Button.OpacityMask>
                     <ImageBrush ImageSource="Images/usuario.png"/>
                 </Button.OpacityMask>
